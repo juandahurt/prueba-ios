@@ -11,15 +11,31 @@
 		3DE7A6AC2590F65D00DC29E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6AB2590F65D00DC29E7 /* ContentView.swift */; };
 		3DE7A6AE2590F66100DC29E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7A6AD2590F66100DC29E7 /* Assets.xcassets */; };
 		3DE7A6B12590F66100DC29E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE7A6B02590F66100DC29E7 /* Preview Assets.xcassets */; };
+		3DE7A6BC2590F6F100DC29E7 /* UsersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6BB2590F6F100DC29E7 /* UsersList.swift */; };
+		3DE7A6C02590F71000DC29E7 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6BF2590F71000DC29E7 /* UserForm.swift */; };
+		3DE7A6C42590F7C200DC29E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6C32590F7C200DC29E7 /* User.swift */; };
+		3DE7A6C82590F87700DC29E7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6C72590F87700DC29E7 /* Network.swift */; };
+		3DE7A6CD2590F97B00DC29E7 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6CC2590F97B00DC29E7 /* UserRepository.swift */; };
+		3DE7A6D02590FC3F00DC29E7 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6CF2590FC3F00DC29E7 /* UserRow.swift */; };
+		3DE7A6D42590FC7900DC29E7 /* UserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7A6D32590FC7900DC29E7 /* UserVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		167D5F994BCE3A9CC6085E5C /* Pods-prueba-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-ios.debug.xcconfig"; path = "Target Support Files/Pods-prueba-ios/Pods-prueba-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		321F0AD57B4ACCA3EFE988EC /* Pods-prueba-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba-ios.release.xcconfig"; path = "Target Support Files/Pods-prueba-ios/Pods-prueba-ios.release.xcconfig"; sourceTree = "<group>"; };
 		3DE7A6A62590F65D00DC29E7 /* prueba-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE7A6A92590F65D00DC29E7 /* prueba_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_iosApp.swift; sourceTree = "<group>"; };
 		3DE7A6AB2590F65D00DC29E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3DE7A6AD2590F66100DC29E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE7A6B02590F66100DC29E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3DE7A6B22590F66100DC29E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE7A6BB2590F6F100DC29E7 /* UsersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersList.swift; sourceTree = "<group>"; };
+		3DE7A6BF2590F71000DC29E7 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
+		3DE7A6C32590F7C200DC29E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3DE7A6C72590F87700DC29E7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		3DE7A6CC2590F97B00DC29E7 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		3DE7A6CF2590FC3F00DC29E7 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		3DE7A6D32590FC7900DC29E7 /* UserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,8 @@
 			children = (
 				3DE7A6A82590F65D00DC29E7 /* prueba-ios */,
 				3DE7A6A72590F65D00DC29E7 /* Products */,
+				C7835B9C254EA5F1D5C53600 /* Pods */,
+				BF75C3A67686DE7ECC65913F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +70,11 @@
 		3DE7A6A82590F65D00DC29E7 /* prueba-ios */ = {
 			isa = PBXGroup;
 			children = (
+				3DE7A6D22590FC6100DC29E7 /* ViewModels */,
+				3DE7A6CA2590F90D00DC29E7 /* Repositories */,
+				3DE7A6C22590F7AE00DC29E7 /* Models */,
+				3DE7A6BA2590F6D900DC29E7 /* Views */,
+				3DE7A6B92590F6A300DC29E7 /* Network */,
 				3DE7A6A92590F65D00DC29E7 /* prueba_iosApp.swift */,
 				3DE7A6AB2590F65D00DC29E7 /* ContentView.swift */,
 				3DE7A6AD2590F66100DC29E7 /* Assets.xcassets */,
@@ -69,6 +92,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3DE7A6B92590F6A300DC29E7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7A6C72590F87700DC29E7 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3DE7A6BA2590F6D900DC29E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7A6BB2590F6F100DC29E7 /* UsersList.swift */,
+				3DE7A6BF2590F71000DC29E7 /* UserForm.swift */,
+				3DE7A6CF2590FC3F00DC29E7 /* UserRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DE7A6C22590F7AE00DC29E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7A6C32590F7C200DC29E7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DE7A6CA2590F90D00DC29E7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7A6CC2590F97B00DC29E7 /* UserRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3DE7A6D22590FC6100DC29E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3DE7A6D32590FC7900DC29E7 /* UserVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BF75C3A67686DE7ECC65913F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7835B9C254EA5F1D5C53600 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				167D5F994BCE3A9CC6085E5C /* Pods-prueba-ios.debug.xcconfig */,
+				321F0AD57B4ACCA3EFE988EC /* Pods-prueba-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DE7A6B52590F66100DC29E7 /* Build configuration list for PBXNativeTarget "prueba-ios" */;
 			buildPhases = (
+				6398C391024E57D6939FD470 /* [CP] Check Pods Manifest.lock */,
 				3DE7A6A22590F65D00DC29E7 /* Sources */,
 				3DE7A6A32590F65D00DC29E7 /* Frameworks */,
 				3DE7A6A42590F65D00DC29E7 /* Resources */,
@@ -133,13 +215,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6398C391024E57D6939FD470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3DE7A6A22590F65D00DC29E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE7A6C02590F71000DC29E7 /* UserForm.swift in Sources */,
 				3DE7A6AC2590F65D00DC29E7 /* ContentView.swift in Sources */,
+				3DE7A6C82590F87700DC29E7 /* Network.swift in Sources */,
+				3DE7A6CD2590F97B00DC29E7 /* UserRepository.swift in Sources */,
 				3DE7A6AA2590F65D00DC29E7 /* prueba_iosApp.swift in Sources */,
+				3DE7A6C42590F7C200DC29E7 /* User.swift in Sources */,
+				3DE7A6BC2590F6F100DC29E7 /* UsersList.swift in Sources */,
+				3DE7A6D42590FC7900DC29E7 /* UserVM.swift in Sources */,
+				3DE7A6D02590FC3F00DC29E7 /* UserRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +378,7 @@
 		};
 		3DE7A6B62590F66100DC29E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167D5F994BCE3A9CC6085E5C /* Pods-prueba-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +401,7 @@
 		};
 		3DE7A6B72590F66100DC29E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321F0AD57B4ACCA3EFE988EC /* Pods-prueba-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
